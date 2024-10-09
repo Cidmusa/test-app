@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test App</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .question { margin-bottom: 20px; }
+        .options { margin-top: 10px; }
+        .buttons { margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div id="instructions-section" style="display:none;">
+        <h2>Test Instructions</h2>
+        <ul id="instructions-list"></ul>
+        <button id="start-test-btn">Start Test</button>
+    </div>
+
+    <div id="questions-section" style="display:none;">
+        <h2>Test Questions</h2>
+        <div id="question-container"></div>
+        <div class="buttons">
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+            <button id="submit-btn">Submit Test</button>
+        </div>
+    </div>
+
+    <div id="results-section" style="display:none;">
+        <h2>Results</h2>
+        <div id="results-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
